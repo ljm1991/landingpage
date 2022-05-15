@@ -36,3 +36,8 @@ a {
     font-size: 18px;
     text-decoration: none;
 }
+
+img {
+    height: 300px;
+    width: auto;
+}
