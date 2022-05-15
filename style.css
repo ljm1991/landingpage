@@ -41,12 +41,12 @@ a {
     font-size: 18px;
     text-decoration: none;
     margin: 16px;
+    padding-left: 8px;
 }
 
 img {
     height: 300px;
     width: auto;
-    flex: 1;
 }
 
 .top {
@@ -58,12 +58,13 @@ img {
 .hero {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    padding: 8px;
 }
 
 .herotext {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
