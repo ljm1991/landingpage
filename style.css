@@ -6,8 +6,6 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
 h1, .logo {
@@ -51,5 +49,14 @@ img {
     display:flex;
     justify-content: space-between;
     padding: 8px;
+}
+.hero {
+    display: flex;
+    flex-direction: row;
+}
+
+.herotext {
+    display: flex;
+    flex-direction: column;
 }
 
