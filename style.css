@@ -6,6 +6,8 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 h1, .logo {
@@ -20,10 +22,6 @@ h1 {
 h2 {
     font-size:18px;
     color: #e5e7eb;
-}
-
-.top {
-    display: flex;
 }
 
 .logo {
@@ -41,9 +39,17 @@ a {
     color: #e5e7eb;
     font-size: 18px;
     text-decoration: none;
+    margin: 16px;
 }
 
 img {
     height: 300px;
     width: auto;
 }
+
+.top {
+    display:flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
