@@ -60,12 +60,13 @@ img {
     display: flex;
     flex-direction: row;
     padding: 8px;
+    margin: 50px 0px;
 }
 
 .herotext {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;  
+    justify-content: flex-start;  
 }
 
