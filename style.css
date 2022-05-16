@@ -61,6 +61,7 @@ img {
     flex-direction: row;
     padding: 8px;
     margin: 50px 0px;
+    gap: 50px;
 }
 
 .herotext {
