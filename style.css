@@ -75,3 +75,17 @@ img {
     justify-content: flex-start;  
 }
 
+.information{
+    display: flex;
+    flex-direction: column;
+}
+.infohead {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+.ingredients {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
