@@ -4,13 +4,10 @@ body {
 }
 
 .header {
-    padding: 0px 200px;
-}
-
-.header {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    padding: 0px 200px;
 }
 
 h1, .logo {
@@ -72,7 +69,7 @@ img {
     display: flex;
     flex-direction: row;
     padding: 8px;
-    margin: 100px 0px;
+    margin: 75px 0px;
     gap: 50px;
 }
 
@@ -83,7 +80,7 @@ img {
     justify-content: flex-start;  
 }
 
-.information{
+.information {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -101,7 +98,7 @@ img {
     display: flex;
     flex-direction: row;
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .ingimg {
@@ -137,7 +134,7 @@ img {
     justify-content: space-between;
     background-color: #3882F6;
     margin: 50px 200px;
-    padding: 50px 100px;
+    padding: 50px;
     border-radius: 10px;
     color:#f9faf8;
 }
@@ -146,6 +143,7 @@ img {
     display: flex;
     flex-direction: column;
 }
+
 .looking {
     font-size: 32px;
     font-weight: bolder;
