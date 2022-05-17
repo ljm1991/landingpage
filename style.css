@@ -136,14 +136,34 @@ img {
     color:#f9faf8;
 }
 
-.looking {
+.actionleft {
     display: flex;
     flex-direction: column;
+}
+.looking {
     font-size: 32px;
-    font-size: bolder;
-    margin: 0;
+    font-weight: bolder;
+    margin: 0px;
 }
 
 .sign {
-    margin:0;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0px;
+}
+
+.actionright {
+    display: flex;
+    align-items: flex-end;
+    flex: 0;
+}
+.buttontwo {
+    color: #f9faf8;
+    background-color: #3882F6;
+    border-color: #f9faf8;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border-style: solid;
+    width: 150px;
 }
