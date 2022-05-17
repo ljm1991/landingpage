@@ -113,7 +113,7 @@ img {
     background: #e5e7eb;
     display: flex;
     flex-direction:column;
-    padding: 150px 400px;
+    padding: 100px 400px;
     gap: 18px;
 
 }
@@ -162,4 +162,15 @@ img {
     display: flex;
     align-items: flex-end;
     flex: 0;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: lighter;
+    padding: 30px;
 }
