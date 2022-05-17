@@ -32,15 +32,21 @@ h2 {
     font-size: 24px;
 }
 
-.buttonone {
+.buttonone, .buttontwo {
     color: #f9faf8;
     background-color: #3882F6;
-    border-color: #3882F6;
     font-weight: bold;
     padding: 8px 16px;
-    border-radius: 25px;
+    border-radius: 10px;
     border-style: solid;
     width: 150px;
+}
+.buttonone {
+    border-color: #3882F6;
+}
+
+.buttontwo {
+    border-color: #f9faf8;
 }
 
 a {
@@ -156,14 +162,4 @@ img {
     display: flex;
     align-items: flex-end;
     flex: 0;
-}
-.buttontwo {
-    color: #f9faf8;
-    background-color: #3882F6;
-    border-color: #f9faf8;
-    font-weight: bold;
-    padding: 8px 16px;
-    border-radius: 10px;
-    border-style: solid;
-    width: 150px;
 }
