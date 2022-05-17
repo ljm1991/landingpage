@@ -125,3 +125,20 @@ img {
     justify-content: right;
     font-size: 24px;
 }
+
+.calltoaction {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actioncontainer{
+    display: flex;
+    background-color: #3882F6;
+    justify-content:center;
+    align-items: center;
+    padding: 50px;
+    margin: 100px 0px;
+    border-radius: 10px;
+    color:#e5e7eb
+}
